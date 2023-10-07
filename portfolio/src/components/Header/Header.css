@@ -50,3 +50,8 @@
     display: none;
   }
 }
+@media only screen and (max-width: 1533px){
+  .main-header{
+    margin-top: 12rem;
+  }
+}
