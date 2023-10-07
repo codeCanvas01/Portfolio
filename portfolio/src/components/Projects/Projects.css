@@ -129,7 +129,9 @@
 
   .projects-div {
     display: grid;
-    gap: 1rem;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+  
   }
   .projects-div {
     margin-left: 0.6rem;
