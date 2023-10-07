@@ -1,0 +1,95 @@
+.main-services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  height: fit-content;
+  gap: 3rem;
+  margin-top: 5rem;
+}
+
+.services-left {
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: var(--color-pink);
+  border-radius: 20px;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+.services-left h1 {
+  font-size: 2rem;
+  color: var(--color-dark);
+}
+.services-left p {
+  color: var(--color-text);
+  width: 50%;
+  line-height: 2rem;
+}
+
+.services-center,
+.services-right {
+  border: transparent;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  font-weight: bold;
+  background-color: var(--color-light);
+}
+
+.services-right {
+  margin-right: 2rem;
+}
+
+.services-center h1,
+.services-right h1 {
+  color: var(--color-dark);
+}
+.services-right:hover,
+.services-center:hover {
+  background-color: var(--color-pink);
+  color: var(--color-text);
+  border: 0.1px solid var(--color-light);
+  transition: all ease-in-out 400ms;
+}
+
+.s-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-services {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 10rem;
+  }
+
+  .services-left {
+    margin-left: 2rem;
+    margin-top: 46rem;
+    width: 85%;
+    padding: 1rem;
+  }
+  .services-left p {
+    width: 80%;
+  }
+
+  .services-center,
+  .services-right {
+    margin-left: 1.2rem;
+    width: 90%;
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1533px){
+  .main-services{
+    margin-top: 16rem;
+  }
+}

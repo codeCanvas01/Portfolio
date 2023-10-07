@@ -1,0 +1,236 @@
+.main-about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50vh;
+  width: 100%;
+  margin-top: 5rem;
+  background: url("../../img/background-about-uss.svg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.left-about {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 5rem;
+}
+.left-about h1 {
+  font-size: 2rem;
+  color: var(--color-dark);
+}
+.left-about p {
+  color: var(--color-text);
+  width: 70%;
+  line-height: 2rem;
+}
+
+.btn {
+  display: flex;
+  gap: 2rem;
+}
+/* .d-btn{
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 16px;
+    border: none;
+    color: var(--color-pink);
+    background-color: var(--color-light);
+    font-family: 'Poppins',sans-serif;
+}
+
+.d-btn:hover{
+    background-color: var(--color-dark);
+    transition: all ease-in-out 0.4s;
+} */
+
+.d-btn {
+  /* --color: #00A97F; */
+  padding: 0.8em 1.3em;
+  background-color: var(--color-pink);
+  border-radius: 0.3em;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: 400;
+  font-size: 16px;
+  border: 1px solid;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: var(--color-dark);
+  z-index: 1;
+}
+
+.d-btn::before,
+.d-btn::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+  background-color: var(--color-light);
+  transition: 1s ease;
+}
+
+.d-btn::before {
+  top: -1em;
+  left: -1em;
+}
+
+.d-btn::after {
+  left: calc(100% + 1em);
+  top: calc(100% + 1em);
+}
+
+.d-btn:hover::before,
+.d-btn:hover::after {
+  height: 410px;
+  width: 410px;
+}
+
+.d-btn:hover {
+  color: rgb(10, 25, 30);
+}
+
+.d-btn:active {
+  filter: brightness(0.8);
+}
+
+.c-btn {
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 16px;
+  border: 0.5px solid var(--color-light);
+  color: var(--color-dark);
+  background-color: var(--color-pink);
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+.c-btn:hover {
+  background-color: var(--color-light);
+  color: var(--color-pink);
+  transition: all ease-in-out 0.4s;
+}
+
+.socials {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.4rem;
+  margin-left: 2rem;
+}
+
+.socials a {
+  color: var(--color-light);
+}
+.socials a:hover {
+  color: var(--color-dark);
+  transform: scale(1.1);
+}
+
+.main-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+  margin-right: 5rem;
+}
+.right-about {
+  margin-right: 5rem;
+}
+.about-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  border: 0.1px solid var(--color-dark);
+  border-radius: 20px;
+  padding-top: 1rem;
+  height: 230px;
+  width: 250px;
+  background-color: var(--color-pink);
+  color: var(--color-light);
+}
+.about-card:hover {
+  background-color: var(--color-light);
+  color: var(--color-pink);
+  border: transparent;
+  transition: all ease-in-out 400ms;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-about {
+    display: block;
+    margin-top: 7rem;
+  }
+  .main-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 0;
+    margin-left: 4rem;
+    margin-top: 3rem;
+  }
+  .about-card {
+    width: 100%;
+  }
+
+  .left-about {
+    margin-left: 1rem;
+    text-align: center;
+  }
+
+  .left-about h1 {
+    font-size: 1.5rem;
+    margin-left: 7rem;
+  }
+
+  .left-about p {
+    width: 100%;
+    margin-right: 0.9rem;
+  }
+
+  .btn {
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 7rem;
+  }
+  .socials a {
+    margin-left: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width:1533px){
+  .main-about{
+    display:block;
+    background-image: none;
+    margin-top: 14rem;
+  }
+  .left-about{
+    justify-content: center;
+    align-items: center;
+  }
+  .left-about p{
+    width: 50%;
+  }
+
+  .right-about{
+    
+    margin-top: 3rem;
+    margin-left: 12rem;
+    width: 80%;
+   
+   
+  }
+  .about-card{
+    gap: 0;
+    max-height: 170px;
+    
+  }
+}

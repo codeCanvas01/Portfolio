@@ -1,0 +1,155 @@
+.main-projects {
+  margin-top: 8rem;
+}
+.main-projects h1 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: var(--color-dark);
+  margin-left: 8rem;
+}
+
+.projects-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-left: 5rem;
+  /* margin-right: 3rem; */
+}
+
+.projects-item {
+  border: 1px transparent;
+  border-radius: 2rem;
+  background-color: var(--color-pink);
+  overflow: hidden;
+  width: max-content;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 4rem;
+  padding-right: 1rem;
+}
+.projects-item:hover {
+  background-color: var(--color-light);
+  transition: all ease 600ms;
+}
+.projects-item h3 {
+  color: var(--color-dark);
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+
+.projects-image img {
+  height: 300px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.p-btn {
+  display: flex;
+  gap: 2rem;
+  margin-left: 1rem;
+  padding: 2rem;
+}
+
+.pd-btn {
+  padding: 0.8em 1.3em;
+  background-color: var(--color-pink);
+  border-radius: 0.3em;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: 400;
+  font-size: 16px;
+  border: 1px solid;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: var(--color-dark);
+  z-index: 1;
+}
+
+.pd-btn::before,
+.pd-btn::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+  background-color: var(--color-light);
+  transition: 1s ease;
+}
+
+.pd-btn::before {
+  top: -1em;
+  left: -1em;
+}
+
+.pd-btn::after {
+  left: calc(100% + 1em);
+  top: calc(100% + 1em);
+}
+
+.pd-btn:hover::before,
+.pd-btn:hover::after {
+  height: 410px;
+  width: 410px;
+}
+
+.pd-btn:hover {
+  color: rgb(10, 25, 30);
+}
+
+.pd-btn:active {
+  filter: brightness(0.8);
+}
+
+.pc-btn {
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 16px;
+  border: 0.5px solid var(--color-light);
+  color: var(--color-dark);
+  background-color: var(--color-pink);
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+.pc-btn:hover {
+  background-color: #967853;
+  color: var(--color-pink);
+  transition: all ease 0.4s;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-projects {
+    margin-top: 2.8rem;
+  }
+
+  .projects-div {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+  .projects-div {
+    margin-left: 0.6rem;
+    width: fit-content;
+    margin-right: 20rem;
+  }
+  .projects-item {
+    width: 350px;
+  }
+  .projects-image img {
+    width: 320px;
+    object-fit: cover;
+  }
+  .pd-btn,
+  .pc-btn {
+    padding: 0.5em 1em;
+  }
+}
+
+@media only screen and (max-width: 1533px){
+  .projects-div{
+      grid-template-columns: repeat(2,2fr);
+  }
+}
