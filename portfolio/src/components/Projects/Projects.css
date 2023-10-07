@@ -127,7 +127,7 @@
   }
 
   .projects-div {
-    grid-template-columns: repeat(1, 1fr);
+    display: grid;
     gap: 1rem;
   }
   .projects-div {
