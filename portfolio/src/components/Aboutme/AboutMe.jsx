@@ -39,7 +39,7 @@ const AboutMe = () => {
             // transition={{ duration: 3.7, type: "spring" }}
             className="btn"
           >
-             <a href={cv} className="d-btn">Download CV</a>
+             <a href={cv} download className="d-btn">Download CV</a>
             <a href="#contact" className="c-btn">
               Lets Talk
             </a>
