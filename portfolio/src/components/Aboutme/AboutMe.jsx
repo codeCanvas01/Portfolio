@@ -5,6 +5,7 @@ import { BsGithub } from "react-icons/bs";
 import { BsFillAwardFill } from "react-icons/bs";
 import { FaTasks } from "react-icons/fa";
 import { GiGiftOfKnowledge } from "react-icons/gi";
+import cv from "../../img/M Usama.pdf";
 import { motion } from "framer-motion";
 const AboutMe = () => {
   return (
@@ -38,7 +39,7 @@ const AboutMe = () => {
             // transition={{ duration: 3.7, type: "spring" }}
             className="btn"
           >
-            <button className="d-btn">Download CV</button>
+             <a href={cv} className="d-btn">Download CV</a>
             <a href="#contact" className="c-btn">
               Lets Talk
             </a>
