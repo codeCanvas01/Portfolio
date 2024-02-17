@@ -1,52 +1,52 @@
 import "./Projects.css";
 import pic from "../../img/pic2.png";
+import pic1 from "../../img/pic3.png";
+import pic2 from "../../img/pic4.png";
+import pic3 from "../../img/pic5.png";
+import pic4 from "../../img/pic6.png";
+import pic5 from "../../img/pic7.png";
 const Projects = () => {
   const data = [
     {
       id: 1,
       image: pic,
-      title: "Animated website clone",
-      github: "https://github.com",
+      title: "Death Wish Cofee",
+      github: "https://www.deathwishcoffee.com/",
       demo: "https://animated-website-clone.vercel.app/",
     },
     {
       id: 2,
-      image:
-        "https://img.freepik.com/free-vector/finance-department-employees-are-calculating-expenses-company-s-business_1150-41782.jpg?size=626&ext=jpg&ga=GA1.1.592821983.1682952671&semt=sph",
-      title: "React Calculator",
-      github: "https://github.com",
+      image: pic1,
+      title: "My Grub Club",
+      github: "https://mygrubclub.com/",
       demo: "https://github.com/codeCanvas01/React-Calculator",
     },
     {
       id: 3,
-      image:
-        "https://img.freepik.com/free-vector/people-carrying-different-currency-sign_53876-64651.jpg?size=626&ext=jpg&ga=GA1.2.592821983.1682952671&semt=ais",
-      title: "React Currency-Convertor",
-      github: "https://github.com",
+      image: pic2,
+      title: "Cheesies",
+      github: "https://www.cheesies.co.uk/",
       demo: "https://github.com/codeCanvas01/Currency-Convertor",
     },
     {
       id: 4,
-      image:
-        "https://img.freepik.com/free-vector/concept-new-message-landing-page_23-2148303746.jpg?size=626&ext=jpg&ga=GA1.1.592821983.1682952671&semt=sph",
-      title: "Real-time Notification ",
-      github: "https://github.com",
+      image: pic3,
+      title: "Player One Coffee",
+      github: "https://playeronecoffee.com/",
       demo: "https://github.com/crypCurrence",
     },
     {
       id: 5,
-      image:
-        "https://img.freepik.com/free-vector/money-transfer-financial-services-pos-terminal-online-shopping_335657-3135.jpg?size=626&ext=jpg&ga=GA1.1.592821983.1682952671&semt=ais",
-      title: "Point-Of-Sale(MERN)",
-      github: "https://github.com",
+      image: pic4,  
+      title: "Drink Trip",
+      github: "https://drink-trip.com/",
       demo: "https://github.com/codeCanvas01/Point-Of-Sale-App",
     },
     {
       id: 6,
-      image:
-        "https://img.freepik.com/free-vector/illustration-people-donating-blood_23-2148246357.jpg?size=626&ext=jpg&ga=GA1.1.592821983.1682952671&semt=ais",
-      title: "Blood-Donation-App(MERN)",
-      github: "https://github.com",
+      image: pic5, 
+      title: "Fleur And Bee",
+      github: "https://fleurandbee.com/",
       demo: "https://github.com/codeCanvas01/Blood-Bank-App",
     },
   ];
