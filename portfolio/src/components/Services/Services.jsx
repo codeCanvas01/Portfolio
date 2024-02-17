@@ -16,7 +16,7 @@ const Services = () => {
         <div className="services-left">
           <h1>Services</h1>
           <p>
-            I provide comprehensive MERN stack development services, excelling
+            I provide comprehensive Full stack development services, excelling
             in frontend design and backend development, with a strong focus on
             UI/UX, API integration, and database optimization to deliver
             top-tier digital solutions.
