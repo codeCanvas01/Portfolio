@@ -1,10 +1,10 @@
 import "./Projects.css";
+import pic from "../../img/pic1.png";
 const Projects = () => {
   const data = [
     {
       id: 1,
-      image:
-        "https://img.freepik.com/free-vector/landing-page-with-laptop_23-2148350416.jpg?size=626&ext=jpg&ga=GA1.2.592821983.1682952671&semt=ais",
+      image: pic,
       title: "Animated website clone",
       github: "https://github.com",
       demo: "https://animated-website-clone.vercel.app/",
