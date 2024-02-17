@@ -39,7 +39,7 @@
 
 .projects-image img {
   height: 300px;
-  width: 300px;
+  width: 600px;
   border-radius: 20px;
   object-fit: cover;
   overflow: hidden;
