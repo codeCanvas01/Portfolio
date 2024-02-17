@@ -30,8 +30,8 @@ const AboutMe = () => {
             // whileInView={{ x: 10 }}
             // transition={{ duration: 3.4, type: "spring" }}
           >
-            Passionate MERN stack developer crafting seamless web experiences
-            with JavaScript expertise.
+            Passionate Shopify developer and designer crafting seamless web experiences
+            with customise theme and liquid template expertise.
           </motion.p>
           <motion.div
             // initial={{ x: 0 }}
