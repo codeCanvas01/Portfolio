@@ -1,5 +1,5 @@
 import "./Projects.css";
-import pic from "../../img/pic1.png";
+import pic from "../../img/pic2.png";
 const Projects = () => {
   const data = [
     {
