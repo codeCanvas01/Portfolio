@@ -10,6 +10,7 @@ import { SiMongodb } from "react-icons/si";
 import { IoMdSpeedometer } from "react-icons/io";
 import { FaSearchengin } from "react-icons/fa6";
 import { FaAffiliatetheme } from "react-icons/fa6";
+import { FaShopify } from "react-icons/fa";
 
 import { motion } from "framer-motion";
 
@@ -86,6 +87,10 @@ const Services = () => {
           <div className="s-items">
             <SiMongodb />
             Mongo DB
+          </div>
+          <div className="s-items">
+           <FaShopify />
+            Shopify Liquid 
           </div>
         </motion.div>
       </section>
