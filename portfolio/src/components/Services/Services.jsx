@@ -7,6 +7,10 @@ import { AiOutlineAntDesign } from "react-icons/ai";
 import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
+import { IoMdSpeedometer } from "react-icons/io";
+import { FaSearchengin } from "react-icons/fa6";
+import { FaAffiliatetheme } from "react-icons/fa6";
+
 import { motion } from "framer-motion";
 
 const Services = () => {
@@ -47,6 +51,18 @@ const Services = () => {
           <div className="s-items">
             <AiOutlineAntDesign />
             Ant Design
+          </div>
+          <div className="s-items">
+            <FaAffiliatetheme />
+            Theme Customisation
+          </div>
+           <div className="s-items">
+            <IoMdSpeedometer />
+            Shopify Speed Optimisation
+          </div>
+           <div className="s-items">
+            <FaSearchengin />
+            Shopify SEO
           </div>
         </motion.div>
 
