@@ -30,7 +30,7 @@ const Header = () => {
         >
           <h3>Hello I Am</h3>
           <h1>MUHAMMAD USAMA</h1>
-          <h3>FullStack Developer</h3>
+          <h3>Shopify Developer</h3>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
