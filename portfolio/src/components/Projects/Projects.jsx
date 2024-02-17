@@ -70,17 +70,9 @@ const Projects = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Github
-                  </a>
-                  <a
-                    href={demo}
-                    className="pc-btn"
-                    target="_blank"
-                    rel="noreferrer"
-                    
-                  >
                     Live Demo
                   </a>
+
                 </div>
               </article>
             );
