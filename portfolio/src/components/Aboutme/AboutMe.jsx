@@ -92,7 +92,7 @@ const AboutMe = () => {
             >
               <BsFillAwardFill />
               <h5>Experience</h5>
-              <small>Fresher</small>
+              <small>3+ years</small>
             </motion.div>
             <motion.div
              initial={{ opacity: 0, scale: 0.5 }}
@@ -106,7 +106,7 @@ const AboutMe = () => {
             >
               <FaTasks />
               <h5>Projects</h5>
-              <small>6+ Completed</small>
+              <small>30+ Completed</small>
             </motion.div>
           </div>
         </div>
